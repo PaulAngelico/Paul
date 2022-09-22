@@ -1,0 +1,137 @@
+@import url('fonts.gooleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&dusplay=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+p
+{
+    font-weight: 300;
+    color: darkorange;
+}
+body
+{
+    min-height: 1000px;
+}
+.Home
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(1.jpg);
+    background-size: cover;
+}
+.Home .content
+{
+    max-width: 900px;
+    text-align: center;
+}
+.Home .content h2
+{
+    font-size: 5em;
+    color: azure;
+}
+.Home .content p
+{
+    font-size: 1em;
+    color: azure;
+}
+.btn
+{
+    font-size: 1em;
+    color: azure;
+    background: darkorange;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+.btn:hover
+{
+    color: black;
+    letter-spacing: 5px;
+}
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+header.sticky
+{
+    background:black;
+    opacity: 0.9;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+header .logo
+{
+    color: azure;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none; 
+}
+header .logo:hover
+{
+    color: darkorange;
+    letter-spacing: 5px;
+}
+header .logo:hover span
+{
+    color:azure;
+}
+header .logo span
+{
+    color: darkorange;
+}
+header .navigation
+{
+    position: relative;
+    display: flex;
+}
+header .navigation li
+{
+    list-style: none;
+    margin-left: 50px;
+}
+header .navigation li a
+{
+    text-decoration: none;
+    color: darkorange;
+    font-weight: 700;
+}
+section
+{
+    padding: 100px;
+    background:url(bg.jpg);
+    background-size: cover;
+}
+.titleText
+{
+    color:azure;
+    font-size: 3em;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content .box .imgBx
+{
+    margin-top: 40px;
+}
